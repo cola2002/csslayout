@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	padding: 0;
+    margin: 0;
+	background-color: #5B8FB9;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: coral;
+}
+
+#container {
+	width: 1000px;
+	background-color: transparent;
+	margin: 0 auto;
+	border: solid 1px transparent;
+	padding: 20px;
+}
+
+#header {
+	height: 50px;
+	width: 1000px;
+	background-color: aliceblue;
+	border: solid 1px transparent;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+#navi {
+	list-style: none;
+	text-align: center;
+}
+
+#navi li {
+	display:  inline;
+	padding: 30px;
+}
+
+#main {
+	height: 500px;
+	width: 1000px;
+	border: solid 0px transparent;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	background-color: aliceblue;
+	padding-bottom: 150px;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#section-1 {
+	height: 400px;
+	width: 1000px;
+	background-color: aliceblue;
+	border: solid 0px transparent;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	text-align-last: left;
+    float: left;
+	border-radius: 20px;
+}
+
+/* Style buttons */
+.btn {
+  background-color: #668EC0;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #435E7F;
+}
+
+#section-2 {
+	height: 250px;
+	width: 1000px;
+	background-color: aliceblue;
+	border: solid 0px transparent;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	text-align-last: left;
+    float: right;
+	border-radius: 20px;
+}
+
+img {
+	float: left;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+#section-3 {
+	height: 250px;
+	width: 1000px;
+	background-color: aliceblue;
+	border: solid 0px transparent;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	text-align-last: left;
+    float: left;
+	border-radius: 20px;
+	padding-right: 4px;
+}
+
+#section-4 {
+	height: 400px;
+	width: 1000px;
+	background-color: aliceblue;
+	border: solid 0px transparent;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	text-align-last: left;
+    float: left;
+	border-radius: 20px;
+}
+
+#nav {
+	list-style: none;
+	text-align: center;
+	margin: 30px;
+}
+
+img {
+	margin-right: 30px;
+}
+
+#foot {
+ list-style: none;
+ text-align: center;
+}
+
+#foot li {
+ display:  inline;
+ padding: 40px;
+}
+
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
